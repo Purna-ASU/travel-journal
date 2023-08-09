@@ -1,14 +1,26 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/header'
+import Card from './components/card'
+import Data from './assets/data'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  let Details = Data.map( items => {
+    return <Card 
+      key={items.title}
+      {...items}
+    />
+  }
+); 
 
   return (
-    <div>
-      
+    <div className='container'>
+      <Header />
+      <section>
+        {Details} 
+      </section>
     </div>
   )
 }

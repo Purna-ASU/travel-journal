@@ -34,5 +34,32 @@ export default [
         endDate: "10 Apr, 2023",
         description: "Machu Picchu is an ancient Incan citadel located high in the Andes Mountains. It's renowned for its archaeological significance, stunning vistas, and the challenging Inca Trail.",
         imageUrl: "https://source.unsplash.com/ThzFH3G-Rv8"
+    },
+    {
+        title: "Eiffel Tower",
+        location: "Paris, France",
+        googleMapsUrl: "https://goo.gl/maps/HJD1j4dRAyxWqrVY6",
+        startDate: "14 Jul, 2023",
+        endDate: "20 Jul, 2023",
+        description: "The Eiffel Tower is an iconic symbol of Paris and France. Visitors can ascend to the top for panoramic views of the city, and the tower itself is a masterpiece of engineering and design.",
+        imageUrl: "https://source.unsplash.com/1A57xw-1I5M"
+    },
+    {
+        title: "Great Barrier Reef",
+        location: "Queensland, Australia",
+        googleMapsUrl: "https://goo.gl/maps/nmyCXuWCDnENypKd6",
+        startDate: "5 Nov, 2023",
+        endDate: "12 Nov, 2023",
+        description: "The Great Barrier Reef is the world's largest coral reef system, known for its incredible marine biodiversity and vibrant underwater landscapes. Snorkeling and diving here are unforgettable experiences.",
+        imageUrl: "https://source.unsplash.com/8bWBYeN9XCQ"
+    },
+    {
+        title: "Petra",
+        location: "Ma'an, Jordan",
+        googleMapsUrl: "https://goo.gl/maps/f9CZ2L8xsgjfEvmd9",
+        startDate: "22 Feb, 2024",
+        endDate: "1 Mar, 2024",
+        description: "Petra is a historical and archaeological city famous for its rock-cut architecture and water conduit system. The rose-red city is a UNESCO World Heritage Site and a true wonder of the ancient world.",
+        imageUrl: "https://source.unsplash.com/z-Ld2Fm-CEE"
     }
 ];

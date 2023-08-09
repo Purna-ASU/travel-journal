@@ -1,42 +1,93 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+nav {
+  background-color: #F55A5A;
+  height: 55px;
+  display: flex;
+  color: white;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
 }
 
 .card {
-  padding: 2em;
+  padding: 20px;
+  display: flex;
+  position: relative;
 }
 
-.read-the-docs {
-  color: #888;
+.card--image {
+  max-width: 100%;
+  height: 168px;
+  border-radius: 5px;
 }
+
+.card--info {
+  max-width: 100%;
+  margin-left: 20px;
+}
+
+.card--location {
+  color: #2B283A;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.741px;
+}
+
+.card--url {
+  color: #918E9B;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-left: 10px;
+}
+
+.card--title {
+  color: #2B283A;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card--date {
+  color: #2B283A;
+  font-size: 10.24px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card--desc {
+  color: #2B283A;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 150%; 
+}
+
+.card--rule {
+  position: absolute;
+  left: -200px;
+  right: 0px;
+  bottom: -10px;
+  width: 100%;
+  width: 1200px;
+  height: 0.1px;
+  color: rgb(238, 235, 235) solid;
+}
+
+
+
+
+
+
+
+
